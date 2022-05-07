@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i7v=ry2mk(gkab47rq+=n@4zjdkxldb*l7a4lr920e+t1yl@f2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['172.31.44.246','http://myapp-env.eba-pj5pkbjm.us-east-1.elasticbeanstalk.com','myapp-env.eba-tmgm3ncj.us-east-1.elasticbeanstalk.com','codepipelinr-env.eba-g49gjgst.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['172.31.44.246','myapp-env.eba-pj5pkbjm.us-east-1.elasticbeanstalk.com','myapp-env.eba-tmgm3ncj.us-east-1.elasticbeanstalk.com','codepipelinr-env.eba-g49gjgst.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
